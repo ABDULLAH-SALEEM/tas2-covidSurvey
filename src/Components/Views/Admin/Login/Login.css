@@ -1,0 +1,54 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.loginFormDiv{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.loginForm > .email{
+    margin-bottom: 20px;
+}
+
+.loginForm > .password{
+    margin-bottom: 20px;
+}
+
+.loginForm > .login{
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: 700;
+    color: #1f4597;
+}
+
+.loginForm > .signup{
+    text-decoration: none;
+    width: 100%;
+}
+
+.loginForm > .signup > Button{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #1f4597;
+}
+
+.loginHeading{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    color: #1f4597;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+.loginWraper{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+.error{
+    text-align: center;
+}
